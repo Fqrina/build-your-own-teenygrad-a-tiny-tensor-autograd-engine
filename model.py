@@ -15,8 +15,10 @@ def prod(shape):
             return 0
     return ans
 
-# Step 2 - argsort (not yet solved)
-# TODO: implement
+# Step 2 - argsort
+import numpy as np
+def argsort(values):
+    return np.argsort(values).tolist()
 
 # Step 3 - make_op_enums (not yet solved)
 # TODO: implement
